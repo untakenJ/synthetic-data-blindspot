@@ -24,7 +24,7 @@ if __name__ == "__main__":
     parser.add_argument("--output-path", type=str, default="")
     parser.add_argument("--model-path", type=str, default="")
     parser.add_argument("--evaluation-nickname", type=str, default="")
-    parser.add_argument("--hf-cache-dir", type=str, default='/root/autodl-tmp/hf_cache/')
+    parser.add_argument("--hf-cache-dir", type=str, default='')
     args = parser.parse_args()
 
     # set tokenizer
