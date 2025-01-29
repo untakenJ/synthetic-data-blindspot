@@ -116,7 +116,7 @@ if __name__ == "__main__":
     parser.add_argument("--bias-type", type=str, default="none") # can also be lexical overlap
     parser.add_argument("--starting-model-dir", type=str, default="")
     parser.add_argument("--model-output-dir", type=str, default="")
-    parser.add_argument("--hf-cache-dir", type=str, default='/root/autodl-tmp/hf_cache/')
+    parser.add_argument("--hf-cache-dir", type=str, default='')
     parser.add_argument("--hf-token", type=str)
     args = parser.parse_args()
 
