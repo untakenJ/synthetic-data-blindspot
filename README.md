@@ -8,4 +8,6 @@ This is the code repository for the paper `Does Training on Synthetic Data Make 
 
 **To train the generator model**, run `python train_generator_model.py` with arguments.
 
+**To generate synthetic data**, run `python generate_synthetic_data.py` with arguments.
+
 **To finetune the model with synthetic data**, run `python finetune.py` with arguments.
