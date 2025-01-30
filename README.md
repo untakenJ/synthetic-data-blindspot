@@ -11,3 +11,5 @@ This is the code repository for the paper `Does Training on Synthetic Data Make 
 **To generate synthetic data**, run `python generate_synthetic_data.py` with arguments.
 
 **To finetune the model with synthetic data**, run `python finetune.py` with arguments.
+
+**To text the fine-tuned model on all test sets and save results**, run `python evaluate_and_write_everything.py` with arguments. The `evaluate_and_write_everything_raw.py` file is used for evaluate the raw model without any finetuning.
