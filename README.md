@@ -4,6 +4,6 @@ This is the code repository for the paper `Does Training on Synthetic Data Make 
 
 **To set up the environment**, run `pip install -r requirements.txt`. Our experiments were conducted under Python 3.9.
 
-**To train the starting point model**, run `python llama2_initial_train.py` with arguments indicating the location of MultiNLI and HANS datasets (`--mnli-path` and `--hans-path`), the directory of the output model (`--model-output-dir`), the number of training examples (`--train-size`) as well as the Hugginface token (`--hf-token`).
+**To train the starting point model**, run `python initial_train.py` with arguments indicating the location of MultiNLI and HANS datasets (`--mnli-path` and `--hans-path`), the directory of the output model (`--model-output-dir`), the number of training examples (`--train-size`) as well as the Hugginface token (`--hf-token`).
 
-**To finetune the model with synthetic data**, run `llama2_finetune.py` with arguments.
+**To finetune the model with synthetic data**, run `finetune.py` with arguments.
