@@ -1,6 +1,6 @@
 # Does Training on Synthetic Data Make Models Less Robust?
 
-This is the code repository for the paper `Does Training on Synthetic Data Make Models Less Robust?`[https://arxiv.org/abs/2502.07164]
+This is the code repository for the paper [Does Training on Synthetic Data Make Models Less Robust?](https://arxiv.org/abs/2502.07164)
 
 **To set up the environment**, run `pip install -r requirements.txt`. Our experiments were conducted under Python 3.9.
 
